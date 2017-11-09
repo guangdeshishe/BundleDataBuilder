@@ -2,10 +2,11 @@
   <id>com.agilezhu.bundledatabuilder</id>
   <name>BundleDataBuilder</name>
   <version>1.1</version>
-  <vendor email="agilezhu@qq.com" url="http://www.agilezhu.com">AgileZhu</vendor>
+  <vendor email="agilezhu@qq.com" url="https://github.com/guangdeshishe/BundleDataBuilder">AgileZhu</vendor>
 
   <description>
     generate [BundleDataBuilder] class code
+    detail see:https://github.com/guangdeshishe/BundleDataBuilder
   </description>
 
   <change-notes>
