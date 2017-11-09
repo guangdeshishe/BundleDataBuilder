@@ -1,7 +1,8 @@
 # BundleDataBuilder
-generate [BundleDataBuilder] class code
+##android studio plugin
+###help generate [BundleDataBuilder] class code
 
-1、define a interface like this:
+###1、define a interface like this:
 
       import android.os.Bundle;
       
@@ -12,7 +13,7 @@ generate [BundleDataBuilder] class code
         Bundle build();
       }
 
-2、create class implements [step:1] defined interface [IBaseIntentExtrasBuilder]:
+###2、create class implements [step:1] defined interface [IBaseIntentExtrasBuilder]:
     
     public class ArticleImageExtrasBuilder implements IBaseIntentExtrasBuilder {
     
@@ -26,9 +27,9 @@ generate [BundleDataBuilder] class code
       private boolean mIsLoadBigImage;//是否加载大图
       
     }
-3、use this BundleDataBuilder Plugin generate other code:
+###3、use this BundleDataBuilder Plugin generate other code:
 ![](BundleDataBuilder.gif)
-4、you can build Bundle data like this:
+###4、you can build Bundle data like this:
 
         ArticleImageExtrasBuilder extrasBuilder = new ArticleImageExtrasBuilder();
         extrasBuilder.setIndex(index);
@@ -41,7 +42,7 @@ generate [BundleDataBuilder] class code
         msg.setData(extrasBuilder.build());
         mhandler.sendMessageDelayed(msg, 0);
         
-5、then you can get Bundle data like this:
+###5、then you can get Bundle data like this:
 
       private void initImage(Bundle imageBundle) {
     
