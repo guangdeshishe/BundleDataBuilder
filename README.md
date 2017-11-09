@@ -1,5 +1,5 @@
 # BundleDataBuilder
-## android studio plugin
+## android studio plugin -> [Click Download Plugin](BundleDataBuilder.jar)
 ### help generate [BundleDataBuilder] class code
 
 ### 1、define a interface like this:
