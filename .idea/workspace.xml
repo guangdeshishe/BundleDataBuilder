@@ -640,7 +640,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510195781420</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新文档">
+      <created>1510203375676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1510203375676</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -693,7 +700,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加项目" />
+    <MESSAGE value="更新文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
